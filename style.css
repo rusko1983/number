@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.again {
+  color: white;
+  background-color: gray;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: none;
+}
+.izmedu {
+  color: white;
+  font-size: 25px;
+}
+.mid-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.mid-content h1 {
+  color: white;
+  font-size: 60px;
+}
+.sak-broj {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.broj {
+  color: black;
+  font-size: 100px;
+  border: 2px solid white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  background-color: white;
+}
+.foter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: hidden;
+}
+.inp {
+  border-color: white;
+  font-size: 20px;
+  height: 40px;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+.check {
+  color: black;
+  background-color: white;
+
+  font-size: 20px;
+  padding: 7px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: none;
+}
+.right-side {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 40px 0;
+}
+.start {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.to-low {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.sakrij {
+  display: none;
+}
+.score,
+.scoreee {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.height-score {
+  font-size: 40px;
+}
